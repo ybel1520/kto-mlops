@@ -38,7 +38,7 @@ if __name__ == '__main__':
     """
 Count names with more than seven letters
 """
-def names(prenoms):
+def names(prenoms: list):
     more_than_seven = 0
     for prenom in prenoms:
         if len(prenom) > 7:
